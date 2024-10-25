@@ -176,8 +176,8 @@ body.dark-theme{
 .nav__logo{
   color: var(--title-color);
   font-weight: var(--font-medium);
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
 }
 
 @media screen and (max-width: 1023px){
@@ -328,12 +328,12 @@ body.dark-theme{
   transition: .4s; /*For animation dark mode*/
 }
 .about-us__container {
-  position: relative;
-  height: 571px;
   display: grid;
+  grid-template-rows: auto auto; /* Define two rows */
   justify-items: center;
-  align-items: center; /* Center the content vertically */
+  align-items: center;
 }
+
 .about-us__title {
   font-size: var(--h1-font-size);
   margin-bottom: .75rem;
@@ -355,7 +355,7 @@ body.dark-theme{
   max-width: 100%; /* Ensures the logo is responsive */
   height: auto; /* Maintains aspect ratio */
   width: 300px; /* Adjust to your desired width */
-  margin-bottom: 1rem; /* Space below the logo */
+  margin-bottom: 1rem; /* Space below the logo */ 
 }
 
 
